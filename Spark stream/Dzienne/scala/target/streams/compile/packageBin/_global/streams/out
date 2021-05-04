@@ -1,0 +1,27 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/patryk/szkolenia/stream/scala/target/scala-2.12/scala_2.12-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SessionWindow$$typecreator4$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/patryk/szkolenia/stream/scala/target/scala-2.12/classes/SessionWindow$$typecreator4$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SessionWindow.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/patryk/szkolenia/stream/scala/target/scala-2.12/classes/SessionWindow.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Event.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/patryk/szkolenia/stream/scala/target/scala-2.12/classes/Event.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SessionWindow$$typecreator5$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/patryk/szkolenia/stream/scala/target/scala-2.12/classes/SessionWindow$$typecreator5$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SessionUpdate$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/patryk/szkolenia/stream/scala/target/scala-2.12/classes/SessionUpdate$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Event$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/patryk/szkolenia/stream/scala/target/scala-2.12/classes/Event$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SessionWindow$$typecreator13$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/patryk/szkolenia/stream/scala/target/scala-2.12/classes/SessionWindow$$typecreator13$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SessionWindow$$typecreator17$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/patryk/szkolenia/stream/scala/target/scala-2.12/classes/SessionWindow$$typecreator17$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SessionInfo.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/patryk/szkolenia/stream/scala/target/scala-2.12/classes/SessionInfo.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SessionUpdate.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/patryk/szkolenia/stream/scala/target/scala-2.12/classes/SessionUpdate.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SessionInfo$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/patryk/szkolenia/stream/scala/target/scala-2.12/classes/SessionInfo$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SessionWindow$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/patryk/szkolenia/stream/scala/target/scala-2.12/classes/SessionWindow$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m

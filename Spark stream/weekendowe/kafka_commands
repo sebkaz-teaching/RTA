@@ -1,0 +1,31 @@
+ZMIEŃ KATALOG
+cd kafka_2.12-2.7.0
+
+
+sprawdz zookeeper.properties -> ustaw katalog do logow
+
+WYKONAJ - terminal 1 - start zookeepera
+bin/zookeeper-server-start.sh config/zookeeper.properties
+
+config/server.properties -> ustaw katalog i sprawdz id oraz port
+
+
+WYKONAJ - terminal 2 - start serwera kafki
+bin/kafka-server-start.sh config/server.properties
+
+mozesz uruchomic wiecej ale wtedy nowe pliki z konfiguracja
+
+WYKONAJ - terminal 3 - stworzenie tematu X
+bin/kafka-topics.sh --create --bootstrap-server localhost:9092
+--replication-factor 1 --partitions 1 --topic topicX
+
+np dla 3 brokerow partitions 3 replication-factor 3
+
+WYKONAJ - terminal 4 - weryfikacja czy istnieje Topic
+bin/kafka-topics.sh --list --zookeeper localhost:2181
+
+bin/kafka-topics.sh --describe --zookeeper localhost:2181
+--topic topicX
+
+WYKONAJ - terminal 4 - start producera
+python producer.py

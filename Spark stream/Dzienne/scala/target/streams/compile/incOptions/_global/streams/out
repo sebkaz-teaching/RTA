@@ -1,0 +1,41 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = /Users/patryk/szkolenia/stream/scala/target/scala-2.12/classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SessionInfo.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SessionUpdate.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Event$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Event.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SessionWindow$$typecreator4$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SessionUpdate$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SessionInfo$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SessionWindow$$typecreator13$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SessionWindow.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SessionWindow$$typecreator5$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SessionWindow$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SessionWindow$$typecreator17$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SessionInfo.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SessionUpdate.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Event$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Event.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SessionWindow$$typecreator4$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SessionUpdate$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SessionInfo$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SessionWindow$$typecreator13$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SessionWindow.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SessionWindow$$typecreator5$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SessionWindow$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SessionWindow$$typecreator17$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SessionInfo.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SessionUpdate.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Event$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Event.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SessionWindow$$typecreator4$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SessionUpdate$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SessionInfo$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SessionWindow$$typecreator13$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SessionWindow.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SessionWindow$$typecreator5$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SessionWindow$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	SessionWindow$$typecreator17$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: /Users/patryk/szkolenia/stream/scala/target/scala-2.12/classes.bak[0m
