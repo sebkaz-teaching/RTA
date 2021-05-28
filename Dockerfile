@@ -10,7 +10,7 @@ RUN java -version
 # Adding python3 and pip3
 RUN apt-get install -y python3 python3-pip
 # adding curl and git
-RUN apt-get install -y wget git
+RUN apt-get install -y wget git netcat
 
 # SPARK DOWNLOAD
 RUN wget https://apache.mirrors.tworzy.net/spark/spark-3.1.1/spark-3.1.1-bin-hadoop2.7.tgz
