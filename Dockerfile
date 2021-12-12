@@ -22,10 +22,9 @@ RUN echo "export SPARK_HOME=/opt/spark" >> ~/.profile
 RUN echo "export PATH=$PATH:$SPARK_HOME/bin:$SPARK_HOME/sbin" >> ~/.profile
 RUN echo "export PYSPARK_PYTHON=/usr/bin/python3" >> ~/.profile
 
-#RUN source ~/.profile
 
-
-RUN pip3 install jupyter pandas numpy matplotlib sklearn pyspark findspark
+RUN pip3 install jupyter pandas numpy matplotlib sklearn 
+RUN pip3 install pyspark findspark tensorflow keras torch
 
 COPY . /notebooks/
 
@@ -43,11 +42,6 @@ ADD https://github.com/krallin/tini/releases/download/${TINI_VERSION}/tini /usr/
 RUN chmod +x /usr/bin/tini
 ENTRYPOINT ["/usr/bin/tini", "--"]
 
-# Jupyter listens port: 8888
 EXPOSE 8888
 
-# Run Jupyter notebook as Docker main process
-#CMD ["jupyter", "notebook", "--allow-root", "--notebook-dir=/notebooks", "--ip='*'", "--port=8888", "--no-browser"]
-
-# Run Jupyter notebook  without password - not recomended !!!
 CMD ["jupyter", "notebook", "--allow-root", "--notebook-dir=/notebooks", "--ip='*'", "--port=8888", "--no-browser", "--NotebookApp.token=''"]
