@@ -1,0 +1,14 @@
+ZMIEŃ KATALOG
+cd kafka_2.12-2.7.0
+
+WYKONAJ - terminal 1 - start zookeepera
+bin/zookeeper-server-start.sh config/zookeeper.properties
+
+WYKONAJ - terminal 2 - start serwera kafki
+bin/kafka-server-start.sh config/server.properties
+
+WYKONAJ - terminal 3 - stworzenie tematu X
+bin/kafka-topics.sh --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic topicX
+
+WYKONAJ - terminal 4 - start producera
+python producer.py
